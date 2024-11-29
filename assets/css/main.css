@@ -159,7 +159,30 @@ h1, h2, img, p {
   color: #555;
   margin: 8px 0;
 }
+.btn-share-whatsapp {
+  display: inline-block;
+  
+  padding: 12px 24px; /* Ajusta el tamaño del botón */
+  background-color: #25d366; /* Color de fondo de WhatsApp */
+  color: white; /* Color del texto */
+  font-size: 18px; /* Tamaño de la fuente */
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  border-radius: 5px; /* Bordes redondeados */
+  text-align: center; /* Centra el texto */
+  font-weight: bold; /* Hace el texto en negrita */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transiciones suaves */
+}
 
+/* Efecto al pasar el mouse */
+.btn-share-whatsapp:hover {
+  background-color: #128c7e; /* Color de fondo de WhatsApp cuando se pasa el mouse */
+  transform: scale(1.05); /* Le da un pequeño zoom al botón */
+}
+
+/* Efecto al hacer clic */
+.btn-share-whatsapp:active {
+  transform: scale(1); /* Elimina el zoom al hacer clic */
+}
 /* Estilo para el botón */
 .product-info a {
   display: inline-block;
